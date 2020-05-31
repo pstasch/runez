@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/runez/static/css/main.14266398.chunk.css",
-    "main.js": "/runez/static/js/main.18019492.chunk.js",
-    "main.js.map": "/runez/static/js/main.18019492.chunk.js.map",
+    "main.js": "/runez/static/js/main.bbd40ab9.chunk.js",
+    "main.js.map": "/runez/static/js/main.bbd40ab9.chunk.js.map",
     "runtime-main.js": "/runez/static/js/runtime-main.fd01f014.js",
     "runtime-main.js.map": "/runez/static/js/runtime-main.fd01f014.js.map",
     "static/js/2.869f8b53.chunk.js": "/runez/static/js/2.869f8b53.chunk.js",
     "static/js/2.869f8b53.chunk.js.map": "/runez/static/js/2.869f8b53.chunk.js.map",
     "index.html": "/runez/index.html",
-    "precache-manifest.1867755b587224bd184ea38f7af47c09.js": "/runez/precache-manifest.1867755b587224bd184ea38f7af47c09.js",
+    "precache-manifest.90814afa7ecbac35785305a892b5350d.js": "/runez/precache-manifest.90814afa7ecbac35785305a892b5350d.js",
     "service-worker.js": "/runez/service-worker.js",
     "static/css/main.14266398.chunk.css.map": "/runez/static/css/main.14266398.chunk.css.map",
     "static/js/2.869f8b53.chunk.js.LICENSE.txt": "/runez/static/js/2.869f8b53.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.fd01f014.js",
     "static/js/2.869f8b53.chunk.js",
     "static/css/main.14266398.chunk.css",
-    "static/js/main.18019492.chunk.js"
+    "static/js/main.bbd40ab9.chunk.js"
   ]
 }
