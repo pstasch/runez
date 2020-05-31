@@ -43,12 +43,12 @@ export default class Game extends React.Component {
 
         // Click on empty Socket
         if ( i == this.state.emptySocket) {
-            statusMessage = "Are You Retarded?"
+            statusMessage = "Ich habe dich für klüger gehalten..."
         }
 
         if (this.moveIsValid( updatedBoard, i, emptySocket)) {
             // Change Runes
-            statusMessage = "Fine, that's valid";
+            statusMessage = "Nicht so blöd wie du aussiehst...";
             updatedBoard[emptySocket] = updatedBoard[i];
             updatedBoard[i] = null;
             emptySocket = i;
@@ -56,7 +56,7 @@ export default class Game extends React.Component {
             // Reset Board
             updatedBoard = this.getStartingLineup();
             emptySocket = 3;
-            statusMessage = "Lets try again, idiot!"
+            statusMessage = "Du wirst hier nie wieder rauskommen!"
         }
 
 
@@ -127,10 +127,10 @@ export default class Game extends React.Component {
     render() {
         let statusMessage = this.state.statusMessage;
         if ( this.isSolved( this.state.runeBoard ) ) {
-            statusMessage = "Fine You Win... THIS TIME"
+            statusMessage = "Wie kann das sein?!"
         }
         else if ( this.isStucked() ) {
-            statusMessage = "Hah You have fallen in My Trap!"
+            statusMessage = "Versuchs doch noch einmal, Sterblicher"
         }
 
         return (
