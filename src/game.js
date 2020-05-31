@@ -7,7 +7,7 @@ export default class Game extends React.Component {
         this.state = {
             runeBoard: this.getStartingLineup(),
             emptySocket: 3,
-            statusMessage: "lets begin",
+            statusMessage: "Fang an...",
         };
     }
 
