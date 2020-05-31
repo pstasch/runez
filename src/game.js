@@ -127,7 +127,7 @@ export default class Game extends React.Component {
     render() {
         let statusMessage = this.state.statusMessage;
         if ( this.isSolved( this.state.runeBoard ) ) {
-            statusMessage = "Wie kann das sein?!"
+            statusMessage = "Wie kann das sein?! DU HAST DAS RÄTSEL GELÖST!"
         }
         else if ( this.isStucked() ) {
             statusMessage = "Versuchs doch noch einmal, Sterblicher"
